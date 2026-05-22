@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial;
+  background-color: #f4f4f4;
+}
+
+.container {
+  width: 400px;
+  margin: 50px auto;
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow:
+    0 0 15px rgba(0,0,0,0.1);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+p {
+  text-align: center;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  margin-top: 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 15px;
+  border: none;
+  border-radius: 8px;
+  background: black;
+  color: white;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+.register-btn {
+  background: gray;
+}
+
+.delete-btn {
+  width: auto;
+  background: red;
+  padding: 8px 15px;
+  margin-top: 10px;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  padding: 10px 0;
+}
